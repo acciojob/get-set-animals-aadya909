@@ -31,7 +31,6 @@ class Cat extends Animal {
 }
 
 // Do not change the code below this line
-(window as any).Animal = Animal;
-(window as any).Dog = Dog;
-(window as any).Cat = Cat;
-
+window.Animal = Animal;
+window.Dog = Dog;
+window.Cat = Cat;
